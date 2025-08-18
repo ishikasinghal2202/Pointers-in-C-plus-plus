@@ -1,0 +1,22 @@
+// Ishika SInghal
+// 24070123048
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    string s;
+    cout << "Enter a string:" << endl;
+    cin >> s;
+
+    char* ptr = &s[0];
+
+    cout << "Characters of string entered are:" << endl;
+    while (*ptr != '\0') {
+        cout << *ptr << endl;
+        ptr++;
+    }
+
+    return 0;
+}
