@@ -89,7 +89,7 @@ SAMPLE OUTPUT:
              Initial address of d: 0x7ffe08ddab7c
              Incremented address of d: 0x7ffe08ddab80
 
-   Addition & Subraction using pointer:
+    Addition & Subraction using pointer:
             The difference between the values at index 4 and 2 is:20
             The addition of the values of array at index 4 and 2 is:80
 
