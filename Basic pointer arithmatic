@@ -1,0 +1,52 @@
+// Ishika Singhal
+//24070123048
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 2;
+    bool b = true;
+    double c = 10.5;
+    float d = 23.0;
+
+    int* aptr;
+    bool* bptr;
+    double* cptr;
+    float* dptr;
+
+    cout<<"Data type: int."<<endl;
+    cout << "Value of a: " << a << endl;
+    aptr = &a;
+    cout << "Initial address of a: " << aptr << endl;
+    aptr++;
+    cout << "Incremented address of a: " << aptr << endl << endl;
+
+    
+     cout<<"Data type: bool."<<endl;
+    cout << "Value of b: " << b << endl;
+    bptr = &b;
+    cout << "Initial address of b: " << *bptr << endl;
+    bptr++;
+    cout << "Incremented address of b: " << *bptr << endl << endl;
+
+     cout<<"Data type: double"<<endl;   
+    cout << "Value of c: " << c << endl;
+    cptr = &c;
+    cout << "Initial address of c: " << cptr << endl;
+    cptr++;
+    cout << "Incremented address of c: " << cptr << endl << endl;
+
+   
+    cout<<"Data type: float."<<endl;
+    cout << "Value of d: " << d << endl;
+    dptr = &d;
+    cout << "Initial address of d: " << dptr << endl;
+    dptr++;
+    cout << "Incremented address of d: " << dptr << endl << endl;
+
+    return 0;
+}
+
+
+
