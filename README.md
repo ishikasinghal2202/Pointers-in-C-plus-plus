@@ -68,7 +68,7 @@ SAMPLE OUTPUT:
               l
               o
 
-   Basic pointer arithematic:
+    Basic pointer arithematic:
              Data type: int.
              Value of a: 2
              Initial address of a: 0x7ffe08ddab8c
